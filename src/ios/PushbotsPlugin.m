@@ -114,6 +114,7 @@ static char launchNotificationKey;
     }
 }
 
+/*
 - (void)notificationOpened:(NSDictionary *)userInfo {
     
      dispatch_async(dispatch_get_main_queue(), ^{
@@ -130,6 +131,7 @@ static char launchNotificationKey;
     [self sendSuccessCallback:responseDict];
 
 }
+*/
 
 - (void)sendSuccessCallback:(NSDictionary *)data {
     if (data != nil) {
