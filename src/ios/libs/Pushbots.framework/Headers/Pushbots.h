@@ -237,8 +237,8 @@ This method will toggle debug mode on the device, visit sandbox section in dashb
  This method will toggle Push notification subscription status.
  @param subscribed        badge count to substract.
  
- 
+ */
 - (void) trackPushNotificationOpenedWithLaunchOptions:(NSDictionary *) launchOptions;
 - (void) trackPushNotificationOpenedWithPayload:(NSDictionary *) payload;
-*/
+
 @end
