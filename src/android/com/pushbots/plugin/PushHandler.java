@@ -38,7 +38,7 @@ public class PushHandler extends DefaultPushHandler {
 			Bundle bundle = intent.getExtras().getBundle(PBConstants.EVENT_MSG_OPEN);
 			
 			//Record opened notification
-            Pushbots.PushNotificationOpened(context, bundle);
+           		//Pushbots.PushNotificationOpened(context, bundle);
 			
 			//Start Launch Activity
 			String packageName = context.getPackageName();
